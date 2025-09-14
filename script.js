@@ -50,9 +50,9 @@ do {
         Welcome to the Bank App!
         What whould you like to do?
         1: Deposit
-        2:Withdraw
-        3:Check Balance
-        4View Transaction History
+        2: Withdraw
+        3: Check Balance
+        4: View Transaction History
         5: Exit
         `);
 
