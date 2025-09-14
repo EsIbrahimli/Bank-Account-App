@@ -34,9 +34,9 @@ const bankAccount = {
         if (this.transactions.length === 0) {
             alert(`No transactions yet.`);
         } else {
-            let history = '';
+            let history = 'Transaction History:\n';
             this.transactions.forEach((t, index) => {
-                history += `${i + 1}. ${t}`;
+                history += `${index + 1}. ${t}\n`;
             });
             alert(history);
         }
